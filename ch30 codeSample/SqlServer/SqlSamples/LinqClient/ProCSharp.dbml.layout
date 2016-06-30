@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="ProCSharp">
+  <DataContextMoniker Name="/ProCSharpDataContext" />
+  <nestedChildShapes>
+    <classShape Id="238e19ba-52a4-45e4-9f29-2c0a6dde452e" absoluteBounds="1, 1.75, 2, 1.3239465332031251">
+      <DataClassMoniker Name="/ProCSharpDataContext/Exam" />
+      <nestedChildShapes>
+        <elementListCompartment Id="98c8af54-1aba-46c0-859d-cea2c092f499" absoluteBounds="1.0150000000000001, 2.21, 1.9700000000000002, 0.763946533203125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PCSAjaxWebApp1", "..\..\..\..\..\..\ProCSharp\Chapter39\PCSAjaxWebApp1\", "{29E3C562-59B1-4606-B2C3-FF986B353D65}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/PCSAjaxWebApp1"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\ProCSharp\Chapter39\PCSAjaxWebApp1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\PCSAjaxWebApp1\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/PCSAjaxWebApp1"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\ProCSharp\Chapter39\PCSAjaxWebApp1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\PCSAjaxWebApp1\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49223"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29E3C562-59B1-4606-B2C3-FF986B353D65}.Debug|.NET.ActiveCfg = Debug|.NET
+		{29E3C562-59B1-4606-B2C3-FF986B353D65}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

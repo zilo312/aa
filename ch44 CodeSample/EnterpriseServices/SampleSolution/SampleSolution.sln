@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthwindComponent", "NorthwindComponent\NorthwindComponent.csproj", "{6392E31D-E322-48B3-B304-6BAA6C460651}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApp", "ClientApp\ClientApp.csproj", "{C783200E-62B5-477B-9456-FE2E522F476D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFClientApp", "WCFClientApp\WCFClientApp.csproj", "{1D861290-55A7-4410-B0B2-857B4E6F626C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6392E31D-E322-48B3-B304-6BAA6C460651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6392E31D-E322-48B3-B304-6BAA6C460651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6392E31D-E322-48B3-B304-6BAA6C460651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6392E31D-E322-48B3-B304-6BAA6C460651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C783200E-62B5-477B-9456-FE2E522F476D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C783200E-62B5-477B-9456-FE2E522F476D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C783200E-62B5-477B-9456-FE2E522F476D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C783200E-62B5-477B-9456-FE2E522F476D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D861290-55A7-4410-B0B2-857B4E6F626C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D861290-55A7-4410-B0B2-857B4E6F626C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D861290-55A7-4410-B0B2-857B4E6F626C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D861290-55A7-4410-B0B2-857B4E6F626C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PCSWebApp1", "..\..\..\..\..\..\ProCSharp\Chapter37\PCSWebApp1\", "{B7FA509B-F69A-48D5-A47E-010FA5521AD2}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/PCSWebApp1"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\ProCSharp\Chapter37\PCSWebApp1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\PCSWebApp1\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/PCSWebApp1"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\ProCSharp\Chapter37\PCSWebApp1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\PCSWebApp1\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51172"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7FA509B-F69A-48D5-A47E-010FA5521AD2}.Debug|.NET.ActiveCfg = Debug|.NET
+		{B7FA509B-F69A-48D5-A47E-010FA5521AD2}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

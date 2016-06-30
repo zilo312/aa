@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PCSAuthenticationDemo", "..\..\..\..\..\..\ProCSharp\Chapter38\PCSAuthenticationDemo\", "{216A2E94-5E1D-4DBB-B9EC-18322159DA74}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/PCSAuthenticationDemo"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\ProCSharp\Chapter38\PCSAuthenticationDemo\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\PCSAuthenticationDemo\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/PCSAuthenticationDemo"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\ProCSharp\Chapter38\PCSAuthenticationDemo\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\PCSAuthenticationDemo\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49579"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{216A2E94-5E1D-4DBB-B9EC-18322159DA74}.Debug|.NET.ActiveCfg = Debug|.NET
+		{216A2E94-5E1D-4DBB-B9EC-18322159DA74}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

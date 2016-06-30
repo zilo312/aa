@@ -1,0 +1,30 @@
+﻿<UserControl x:Class="WPFControl.UserControl1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Height="300" Width="300">
+    <Grid>
+      <Button>
+         <Canvas Height="230" Width="230">
+            <Ellipse Canvas.Left="50" Canvas.Top="50" Width="100" Height="100" 
+              Stroke="Blue" StrokeThickness="4" Fill="Yellow" />
+            <Ellipse Canvas.Left="60" Canvas.Top="65" Width="25" Height="25" 
+              Stroke="Blue" StrokeThickness="3" Fill="White" />
+            <Ellipse Canvas.Left="70" Canvas.Top="75" Width="5" Height="5" 
+              Fill="Black" />
+            <Path Name="mouth" Stroke="Blue" StrokeThickness="4" 
+              Data="M 62,125 Q 95,122 102,108" />
+
+            <Line X1="124" X2="132" Y1="144" Y2="166" Stroke="Blue" 
+              StrokeThickness="4" />
+            <Line X1="114" X2="133" Y1="169" Y2="166" Stroke="Blue" 
+              StrokeThickness="4" />
+
+            <Line X1="92" X2="82" Y1="146" Y2="168" Stroke="Blue" 
+              StrokeThickness="4" />
+            <Line X1="68" X2="83" Y1="160" Y2="168" Stroke="Blue" 
+              StrokeThickness="4" />
+         </Canvas>
+      </Button>
+
+   </Grid>
+</UserControl>

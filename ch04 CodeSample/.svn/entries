@@ -1,0 +1,52 @@
+8
+
+dir
+23
+svn://pebblebeach/svn/Wiley/trunk/ProCSharp6/Chapter4/Sample
+svn://pebblebeach
+
+
+
+2007-05-16T00:22:06.515625Z
+11
+jay
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a53a2bf0-b2f4-194e-9d64-e0e0ebdbc73b
+
+BankAccounts.cs
+file
+
+
+
+
+2007-07-14T02:51:52.493800Z
+a09b20d111aa8dde201748e2c5b3727c
+2007-05-16T00:22:06.515625Z
+11
+jay
+
+CurrentAccounts.cs
+file
+
+
+
+
+2007-07-14T02:51:52.493800Z
+4c2e22fed42f4064d09d5a9d1ac130c1
+2007-05-16T00:22:06.515625Z
+11
+jay
+

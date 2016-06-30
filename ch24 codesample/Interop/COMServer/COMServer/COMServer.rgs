@@ -1,0 +1,17 @@
+HKCU
+{
+	Software
+	{
+		Classes
+		{
+			NoRemove AppID
+			{
+				'%APPID%' = s 'COMServer'
+				'COMServer.DLL'
+				{
+					val AppID = s '%APPID%'
+				}
+			}
+		}
+	}
+}

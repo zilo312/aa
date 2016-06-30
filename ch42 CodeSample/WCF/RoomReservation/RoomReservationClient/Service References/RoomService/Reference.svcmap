@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0e97c17e-822d-4251-8ecd-19bcf57012ff" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8731/Design_Time_Addresses/RoomReservationService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="78d933c8-5623-40cd-ac3b-9d4219615577" SourceId="1" SourceUrl="http://localhost:8731/Design_Time_Addresses/RoomReservationService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="c47a77e0-9a21-4ddc-a9a9-5b6419c774c2" SourceId="1" SourceUrl="http://localhost:8731/Design_Time_Addresses/RoomReservationService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="cc1f0d82-0559-4b85-8e61-3376ba471389" SourceId="1" SourceUrl="http://localhost:8731/Design_Time_Addresses/RoomReservationService/mex" />
+    <MetadataFile FileName="Wrox.ProCSharp.WCF.Entities.xsd" MetadataType="Schema" ID="e6d47c49-4951-4a5d-8d7a-ffb3823f935d" SourceId="1" SourceUrl="http://localhost:8731/Design_Time_Addresses/RoomReservationService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

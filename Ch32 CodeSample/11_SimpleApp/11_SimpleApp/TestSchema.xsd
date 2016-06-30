@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TestSchema" targetNamespace="http://tempuri.org/TestSchema.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TestSchema.xsd" xmlns:mstns="http://tempuri.org/TestSchema.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Product">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Name" type="xs:string" />
+        <xs:element name="SKU" type="xs:string" />
+        <xs:element name="Description" type="xs:string" />
+        <xs:element name="Price" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

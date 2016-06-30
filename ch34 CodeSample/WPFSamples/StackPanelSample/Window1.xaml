@@ -1,0 +1,18 @@
+﻿<Window x:Class="StackPanelSample.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Layout Samples" Height="300" Width="283">
+
+   <StackPanel Orientation="Vertical">
+      <Label>Label</Label>
+      <TextBox>TextBox</TextBox>
+      <CheckBox>Checkbox</CheckBox>
+      <CheckBox>Checkbox</CheckBox>
+      <ListBox>
+         <ListBoxItem>ListBoxItem One</ListBoxItem>
+         <ListBoxItem>ListBoxItem Two</ListBoxItem>
+      </ListBox>
+      <Button>Button</Button>
+   </StackPanel>
+
+</Window>

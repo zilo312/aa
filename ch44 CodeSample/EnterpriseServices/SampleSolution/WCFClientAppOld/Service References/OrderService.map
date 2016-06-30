@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceReference>
+	<ProxyGenerationParameters
+		ServiceReferenceUri="net.pipe://localhost/Wrox.NorthwindDemo/Wrox.ProCSharp.EnterpriseServices.OrderControl/mex"
+		Name="OrderService"
+		NotifyPropertyChange="False"
+		UseObservableCollection="False">
+	</ProxyGenerationParameters>
+	<EndPoints>
+		<EndPoint
+			Address="net.pipe://localhost/Wrox.NorthwindDemo/Wrox.ProCSharp.EnterpriseServices.OrderControl/IOrderControl"
+			BindingConfiguration="NetNamedPipeBinding_IOrderControl1"
+			Contract="WCFClientApp.OrderService.IOrderControl"
+			>
+		</EndPoint>
+		<EndPoint
+			Address="net.pipe://localhost/Wrox.NorthwindDemo/Wrox.ProCSharp.EnterpriseServices.OrderControl/mex"
+			BindingConfiguration="MetadataExchangeNamedPipeBinding_IMetadataExchange1"
+			Contract="System.ServiceModel.Description.IMetadataExchange"
+			>
+		</EndPoint>
+	</EndPoints>
+</ServiceReference>

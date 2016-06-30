@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseOrder", "CourseOrder\CourseOrder.csproj", "{DB81F585-D005-4BD3-B8C3-048804CB7D93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseOrderSender", "CourseOrderSender\CourseOrderSender.csproj", "{355E175A-7CEC-4C58-BBB8-187E566C8FB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseOrderReceiver", "CourseOrderReceiver\CourseOrderReceiver.csproj", "{0924F591-E639-4593-B91B-0A90D8605C6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB81F585-D005-4BD3-B8C3-048804CB7D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB81F585-D005-4BD3-B8C3-048804CB7D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB81F585-D005-4BD3-B8C3-048804CB7D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB81F585-D005-4BD3-B8C3-048804CB7D93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{355E175A-7CEC-4C58-BBB8-187E566C8FB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{355E175A-7CEC-4C58-BBB8-187E566C8FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{355E175A-7CEC-4C58-BBB8-187E566C8FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{355E175A-7CEC-4C58-BBB8-187E566C8FB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0924F591-E639-4593-B91B-0A90D8605C6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0924F591-E639-4593-B91B-0A90D8605C6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0924F591-E639-4593-B91B-0A90D8605C6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0924F591-E639-4593-B91B-0A90D8605C6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

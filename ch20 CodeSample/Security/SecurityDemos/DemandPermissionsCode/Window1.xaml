@@ -1,0 +1,8 @@
+﻿<Window x:Class="DemandPermissionsCode.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Demand Permissions" Height="300" Width="300">
+    <Grid>
+      <Button x:Name="button1" Height="50" Width="180">Requires FileIOPermission</Button>
+   </Grid>
+</Window>

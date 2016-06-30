@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://schemas.microsoft.com/2006/04/mex" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" targetNamespace="http://schemas.microsoft.com/2006/04/mex" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://schemas.microsoft.com/2006/04/mex/Imports">
+      <xsd:import schemaLocation="http://localhost:8088/NorthwindService?xsd=xsd6" namespace="http://schemas.microsoft.com/Message" />
+      <xsd:import schemaLocation="http://localhost:8088/NorthwindService?xsd=xsd0" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8088/NorthwindService?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost:8088/NorthwindService?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/System" />
+      <xsd:import schemaLocation="http://localhost:8088/NorthwindService?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/System.Runtime.InteropServices" />
+      <xsd:import schemaLocation="http://localhost:8088/NorthwindService?xsd=xsd4" namespace="http://tempuri.org/E1B02E09-EE48-3B6B-946F-E6A8BAEC6340" />
+      <xsd:import schemaLocation="http://localhost:8088/NorthwindService?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/Wrox.ProCSharp.EnterpriseServices" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IMetadataExchange_Get_InputMessage">
+    <wsdl:part xmlns:q1="http://schemas.microsoft.com/Message" name="request" type="q1:MessageBody" />
+  </wsdl:message>
+  <wsdl:message name="IMetadataExchange_Get_OutputMessage">
+    <wsdl:part xmlns:q2="http://schemas.microsoft.com/Message" name="GetResult" type="q2:MessageBody" />
+  </wsdl:message>
+  <wsdl:portType name="IMetadataExchange">
+    <wsdl:operation name="Get">
+      <wsdl:input wsaw:Action="http://schemas.xmlsoap.org/ws/2004/09/transfer/Get" message="tns:IMetadataExchange_Get_InputMessage" />
+      <wsdl:output wsaw:Action="http://schemas.xmlsoap.org/ws/2004/09/transfer/GetResponse" message="tns:IMetadataExchange_Get_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

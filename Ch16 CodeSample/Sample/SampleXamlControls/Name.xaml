@@ -1,0 +1,11 @@
+<UserControl x:Class="SampleXamlControls.Name"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Height="45" Width="398">
+    <Grid>
+    
+    <Label HorizontalAlignment="Left" Margin="5,2,0,2" Name="label1" Width="85" VerticalAlignment="Top" HorizontalContentAlignment="Right">First Name:</Label>
+    <Label HorizontalAlignment="Left" Margin="5,22,0,2" Name="label2" Width="85" VerticalAlignment="Bottom" HorizontalContentAlignment="Right">Last Name:</Label>
+    <TextBox Margin="95,2,5,2" Name="firstNameText" VerticalAlignment="Top"></TextBox>
+    <TextBox Margin="95,22,5,2" Name="lastNameText" VerticalAlignment="Bottom"></TextBox>
+  </Grid>
+</UserControl>

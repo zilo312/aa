@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="Formula1V1" Class="Formula1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(local);Initial Catalog=Formula1V1;Integrated Security=True" SettingsObjectName="SyndicationWriter.Properties.Settings" SettingsPropertyName="Formula1V1ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.RaceResults" Member="RaceResults">
+    <Type Name="RaceResult">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="RaceId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Position" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Grid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Points" Type="System.Decimal" DbType="Decimal(8,2)" CanBeNull="true" />
+      <Column Name="RacerId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TeamId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Race_RaceResult" Member="Race" ThisKey="RaceId" Type="Race" IsForeignKey="true" />
+      <Association Name="Racer_RaceResult" Member="Racer" ThisKey="RacerId" Type="Racer" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Race" Member="Races">
+    <Type Name="Race">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CircuitId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="Race_RaceResult" Member="RaceResults" OtherKey="RaceId" Type="RaceResult" />
+      <Association Name="Circuit_Race" Member="Circuit" ThisKey="CircuitId" Type="Circuit" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Racers" Member="Racers">
+    <Type Name="Racer">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Firstname" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Lastname" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Country" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Starts" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Wins" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Racer_RaceResult" Member="RaceResults" OtherKey="RacerId" Type="RaceResult" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Circuit" Member="Circuits">
+    <Type Name="Circuit">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Country" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Circuit_Race" Member="Races" OtherKey="CircuitId" Type="Race" />
+    </Type>
+  </Table>
+</Database>

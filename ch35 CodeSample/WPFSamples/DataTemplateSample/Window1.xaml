@@ -1,0 +1,42 @@
+﻿<Window x:Class="Wrox.ProCSharp.WPF.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:src="clr-namespace:Wrox.ProCSharp.WPF" 
+    Title="Data Binding" Height="300" Width="300">
+   <Window.Resources>
+      <src:BookDataTemplateSelector x:Key="bookTemplateSelector" />
+      <DataTemplate x:Key="WroxBookTemplate" DataType="{x:Type src:Book}">
+         <Border BorderBrush="Blue" BorderThickness="2" Background="LightBlue" 
+          Margin="10" Padding="15">
+            <StackPanel>
+               <Label Content="{Binding Path=Title}" />
+               <Label Content="{Binding Path=Publisher}" />
+            </StackPanel>
+         </Border>
+      </DataTemplate>
+
+      <DataTemplate x:Key="WileyBookTemplate" DataType="{x:Type src:Book}">
+         <Border BorderBrush="Yellow" BorderThickness="2" Background="LightGreen" 
+          Margin="10" Padding="15">
+            <StackPanel>
+               <Label Content="{Binding Path=Title}" />
+               <Label Content="{Binding Path=Publisher}" />
+            </StackPanel>
+         </Border>
+      </DataTemplate>
+
+      <DataTemplate x:Key="BookTemplate" DataType="{x:Type src:Book}">
+         <Border BorderBrush="Blue" BorderThickness="2" Background="Yellow" 
+          Margin="10" Padding="15">
+            <StackPanel>
+               <Label Content="{Binding Path=Title}" />
+               <Label Content="{Binding Path=Publisher}" />
+            </StackPanel>
+         </Border>
+      </DataTemplate>
+   </Window.Resources>
+
+   <Grid>
+      <ListBox ItemsSource="{Binding}" ItemTemplateSelector="{StaticResource bookTemplateSelector}" />
+   </Grid>
+</Window>

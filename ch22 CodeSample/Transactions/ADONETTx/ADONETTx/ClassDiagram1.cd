@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Segoe UI" Size="8.25" />
+  <Class Name="System.Transactions.Transaction">
+    <Position X="3" Y="0.5" Width="2.75" />
+    <TypeIdentifier />
+    <Members>
+      <Method Name="Clone" Hidden="true" />
+      <Method Name="DependentClone" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="EnlistDurable" Hidden="true" />
+      <Method Name="EnlistPromotableSinglePhase" Hidden="true" />
+      <Method Name="EnlistVolatile" Hidden="true" />
+      <Method Name="Equals" Hidden="true" />
+      <Method Name="GetHashCode" Hidden="true" />
+      <Method Name="op_Inequality" Hidden="true" />
+      <Method Name="op_Equality" Hidden="true" />
+    </Members>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Transactions.CommittableTransaction">
+    <Position X="0.5" Y="3.5" Width="3" />
+    <TypeIdentifier />
+    <Members>
+      <Method Name="CommittableTransaction" Hidden="true" />
+    </Members>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Transactions.DependentTransaction">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Transactions.SubordinateTransaction">
+    <Position X="6.5" Y="3.5" Width="2" />
+    <TypeIdentifier />
+    <Members>
+      <Method Name="SubordinateTransaction" Hidden="true" />
+    </Members>
+  </Class>
+</ClassDiagram>

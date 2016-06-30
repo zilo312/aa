@@ -1,0 +1,12 @@
+﻿<Window x:Class="WPFApplication.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:winforms="clr-namespace:WindowsFormsControl;assembly=WindowsFormsControl"
+    xmlns:my="clr-namespace:System.Windows.Forms.Integration;assembly=WindowsFormsIntegration"
+    Title="Window1" Height="300" Width="300" >
+    <Grid>
+      <my:WindowsFormsHost Name="windowsFormsHost1">
+         <winforms:UserControl1 x:Name="myControl" ButtonText="Click me!" />
+      </my:WindowsFormsHost>
+   </Grid>
+</Window>

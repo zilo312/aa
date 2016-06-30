@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/E1B02E09-EE48-3B6B-946F-E6A8BAEC6340" elementFormDefault="qualified" targetNamespace="http://tempuri.org/E1B02E09-EE48-3B6B-946F-E6A8BAEC6340" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8088/NorthwindService?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/Wrox.ProCSharp.EnterpriseServices" />
+  <xs:element name="NewOrder">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Wrox.ProCSharp.EnterpriseServices" minOccurs="0" name="order" nillable="true" type="q1:Order" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NewOrderResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

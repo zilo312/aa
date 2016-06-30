@@ -1,0 +1,16 @@
+﻿<Window x:Class="WrapPanelSample.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+     Title="Layout Samples" Height="160" Width="250">
+   <WrapPanel>
+      <Button Width="100">Button</Button>
+      <Button Width="100">Button</Button>
+      <Button Width="100">Button</Button>
+      <Button Width="100">Button</Button>
+      <Button Width="100">Button</Button>
+      <Button Width="100">Button</Button>
+      <Button Width="100">Button</Button>
+      <Button Width="100">Button</Button>
+   </WrapPanel>
+
+</Window>

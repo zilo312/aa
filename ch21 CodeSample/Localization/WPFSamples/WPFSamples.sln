@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFandResources", "WPFandResources\WPFandResources.csproj", "{477E792E-F156-44B1-96D5-11821B310982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFandXAMLResources", "WPFandXAMLResources\WPFandXAMLResources.csproj", "{8513158B-C18D-4745-AFDF-F523A9F7B9C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{477E792E-F156-44B1-96D5-11821B310982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{477E792E-F156-44B1-96D5-11821B310982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{477E792E-F156-44B1-96D5-11821B310982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{477E792E-F156-44B1-96D5-11821B310982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8513158B-C18D-4745-AFDF-F523A9F7B9C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8513158B-C18D-4745-AFDF-F523A9F7B9C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8513158B-C18D-4745-AFDF-F523A9F7B9C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8513158B-C18D-4745-AFDF-F523A9F7B9C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
